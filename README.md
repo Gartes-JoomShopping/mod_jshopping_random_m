@@ -1,0 +1,1 @@
+# pro-spec.mod_jshopping_random_m
