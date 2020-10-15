@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<extension type="module" version="1.7.0" client="site" method="upgrade">
+	<name>Случайные товары (слайдер)</name>
+	<author>Дмитрий Сташенко, Artel-St</author>
+	<creationDate>Апрель 2012</creationDate>
+	<copyright>Copyright (C) 2006-2012 DECORA studio OOO. Модификация: Atrel-st. Все права защищены.</copyright>
+	<license>GNU General Public License</license>
+	<authorEmail>dmitry@decorastudio.com.ua, info@artel-studio.org.ua</authorEmail>
+	<authorUrl>www.decorastudio.com.ua, www.artel-studio.org.ua</authorUrl>
+    <version>1.7.1</version>
+	<description>JMOD DESC</description>
+	<files>
+		<filename module="mod_jshopping_random_m">mod_jshopping_random_m.php</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>element/categories.php</filename>
+		<filename>assets/js/jquery-1.6.2.min.js</filename>
+		<filename>assets/css/style.css</filename>
+		<filename>assets/images/hori_large.png</filename>
+	</files>
+    <languages>
+        <language
+            tag="en-GB">en-GB.mod_jshopping_random_m.ini</language>
+		<language
+            tag="ru-RU">ru-RU.mod_jshopping_random_m.ini</language>
+    </languages>       
+    <config>
+        <fields name="params">
+            <fieldset name="basic">  
+                <field
+                    name="ext_css"
+                    type="radio"
+                    default="0"
+                    label="USE EXT CSS"
+                    description="USE EXT CSS DESC">
+                    <option
+                        value="0">JNO</option>
+                    <option
+                        value="1">JYES</option>
+                </field>
+                <field
+                    name="count_products"
+                    type="text"
+                    label="COUNT"
+                    default = "12"
+                    description="THE NUMBER OF PRODUCTS IN ROW" />
+                <field
+                    name="show_image"
+                    type="radio"
+                    default="1"
+                    label="SHOW PRODUCT IMAGE"
+                    description="SHOW PRODUCT IMAGE">
+                    <option
+                        value="0">JNO</option>
+                    <option
+                        value="1">JYES</option>
+                </field>
+                <field  
+                    name="catids" 
+                    type="categories" 
+                    size="5" 
+                    default=""                    
+                    label="CATEGORIES" 
+                    description="CATEGORIES" 
+                    addfieldpath="/modules/mod_jshopping_latest_products/element"/>
+                <field
+                    name="moduleclass_sfx"
+                    type="text"
+                    label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                    description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />                               
+            </fieldset> 
+        </fields>
+    </config>          
+</extension>
