@@ -5,4 +5,6 @@
 - Родственные товары
 - Недавно просмотренные
 
-Depends on the library [GNZ11](https://github.com/gartes/GNZ11)
+Depends 
+- library [GNZ11](https://github.com/gartes/GNZ11)
+- plugin  [plg_jshoppingproducts_jshopping_last_visit_product](https://github.com/Gartes-JoomShopping/plg_jshoppingproducts_jshopping_last_visit_product)
