@@ -1,4 +1,4 @@
-# pro-spec.mod_jshopping_random_m
+# pro-spec.mod_jshopping_random_m (Модуль отображения товаров)
 Модуль отображения товаров
 - Случайные товары
 - Родственные товары
