@@ -1,0 +1,134 @@
+.module-block.hide {
+    display: none;
+}
+.Related.module-block h3, 
+.Random.module-block h3,
+.RecentlyViewed.module-block h3{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #4b4b4b;
+}
+.full-desc .moduletable h3, .bottom_pro .moduletable h3 {
+    margin: 0 auto;
+    min-width: 700px;
+    max-width: 1600px;
+    padding: 29px 0 10px;
+
+}
+
+
+
+
+.slick-list{
+
+}
+
+.slick-list{
+
+} 
+
+.jswidth20.block_product {
+    width: 16.6%;
+}
+
+/*--------------------------------*/
+
+
+
+
+
+
+
+
+
+/*+++++++++======================================*/
+.simple-slider {
+    position: relative;
+    width: 100%
+}
+
+
+
+
+
+
+/* .simple-slider__control_type_prev { */
+    /* left: -15px; */
+    /* -webkit-transform: rotate(-180deg); */
+/*     -ms-transform: rotate(-180deg); */
+    /* transform: rotate(-180deg); */
+/* } */
+
+
+
+.simple-slider__holder {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    overflow: hidden;
+    -webkit-transition: max-height .25s linear;
+    -o-transition: max-height .25s linear;
+    transition: max-height .25s linear
+}
+
+.simple-slider__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform,-webkit-transform;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+
+.simple-slider__item {
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+.RecentlyViewed .recently_viewed--control.recently-viewed-product-menu ,
+.moduletable h3 button.recently_viewed--control{
+    /* margin-left: 10px; */
+    border: none;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    padding: 3px 0;
+    margin: -2px 0 0 10px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.RecentlyViewed .recently_viewed--control.recently-viewed-product-menu {
+    top: 18px;
+    right: 10px;
+}
+
+.RecentlyViewed .slick-slide {
+    position: relative;
+}
+
+.RecentlyViewed .recently_viewed--control.recently-viewed-product-menu svg,
+.moduletable h3 button.recently_viewed--control svg {
+    fill: #3e77aa;
+}
+.RecentlyViewed .recently_viewed--control.recently-viewed-product-menu:hover > svg,
+.moduletable h3 button.recently_viewed--control:hover > svg{
+    fill: #f84147;
+}
+
+
+.RecentlyViewed .compare_link_to_list,
+.RecentlyViewed .go_to_compre_list{top: 80px;}
+.RecentlyViewed .product-button-wishlist{
+    top: 50px;
+}
